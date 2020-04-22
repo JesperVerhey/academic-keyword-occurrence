@@ -12,6 +12,8 @@ There is a Python 3 branch (master) and a Python 2 branch (python2).
 
 `python extract_occurrences.py '<keyword>' <start date> <end date>` 
 
+To search a specific phrase or multi-word concept, use quotes, e.g. "machine learning"
+
 This command lists the number of publications for every year using
 this keyword. The script just searches for articles and excludes
 patents and citations.
