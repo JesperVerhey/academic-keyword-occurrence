@@ -69,7 +69,7 @@ if __name__ == "__main__":
         print("Usage: python extract_occurences.py '<search term>' <start date> <end date>")
         
     else:
-        search_term = sys.argv[1]
+        search_term = '\"' + sys.argv[1] '\"'
         start_date = int(sys.argv[2])
         end_date = int(sys.argv[3])
         html = get_range(search_term, start_date, end_date)
